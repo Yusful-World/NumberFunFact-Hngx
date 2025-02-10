@@ -24,7 +24,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7100;http://localhost:5093",
+      "applicationUrl": "https://localhost:7100;http://localhost:5093;https://numberfunfact-hngx20250210171630.azurewebsites.net/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

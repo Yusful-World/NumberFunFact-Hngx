@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace NumberFunFact_Hngx.Controllers
 {
     
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
     public class NumberController : ControllerBase
     {
