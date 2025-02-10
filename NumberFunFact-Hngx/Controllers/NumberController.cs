@@ -22,6 +22,12 @@ namespace NumberFunFact_Hngx.Controllers
             _numberFact = numberFact;
         }
 
+        [HttpGet]
+        public IActionResult GetWelcomeMessage()
+        {
+            return Ok("Hi dear! Input a number to get its fun facts.");
+        }
+
         [HttpGet("{number}")]
         public async Task<IActionResult> GetNumberInfo(int number)
         {
